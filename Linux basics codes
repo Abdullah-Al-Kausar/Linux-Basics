@@ -1,10 +1,23 @@
-Make a new directory(folder):
+Make a new directory(folder)
+Ans:  mkdir kausar          //to make a new directory
+      sudo mkdir kausar     //if not work or permisson denied
 Create text file using touch
-Delete a single file
+Ans:  touch kfile           // to create a new text file 
+      touch kfile2
+      sudo touch kfile     //if not work or permisson denied
+Delete a single file  
+Ans:  rm kfile2           // to delete a single file from directory
 Change working directory
+Ans:
 how to Move to parent folder using cd
+Ans:
 List contents of a folder including hidden files.
+Ans:
 Print current directory
+Ans:
 How to set hostname
+Ans:
 How to set timezone
-How to move file /tmp 
+Ans:
+How to move file /tmp
+Ans:
