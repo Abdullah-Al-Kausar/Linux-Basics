@@ -8,16 +8,21 @@ Ans:  touch kfile           // to create a new text file
 Delete a single file  
 Ans:  rm kfile2           // to delete a single file from directory
 Change working directory
-Ans:
+Ans:  cd /kausar          // to change the working directory to kausar
+      cd ..               // to back 1 step
+      cd ~                // to back to the system user
 how to Move to parent folder using cd
-Ans:
+Ans: 
 List contents of a folder including hidden files.
-Ans:
+Ans:  ls                //to see files in the directory
+      ls -a             // to see all files including hidden files in the directory
 Print current directory
-Ans:
+Ans:  pwd               // to print the current directory
 How to set hostname
-Ans:
+Ans:  sudo nano /etc/hostname       //then change the name of host and save
+      sudo nano /etc/hosts          //change the hostname there and save, then restart the server to see the change
 How to set timezone
-Ans:
+Ans: timedatectl                                       // to see the time zone
+      sudo timedatectl set-timezone Asia/DHaka        //to set time zone
 How to move file /tmp
-Ans:
+Ans: mv kfile kausar                // to move kfile to kausar directory
