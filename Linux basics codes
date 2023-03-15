@@ -26,3 +26,25 @@ Ans: timedatectl                                       // to see the time zone
       sudo timedatectl set-timezone Asia/DHaka        //to set time zone
 How to move file /tmp
 Ans: mv kfile kausar                // to move kfile to kausar directory
+If you want to see the disk usage of your linux system which command you run ?
+Ans:  df                            // to see the disk usage 
+      df -h                         // to see the disk usage in human or better understandable form 
+      df -HT                        // to see the disk usage in human or better understandable form
+      df -hT                        // to see the disk usage in human or better understandable form
+If you want to see memery usage of your linux system which command you run ?
+Ans:  free                          // to see the memory or free memory
+      free -h                        // to see the memory or free memory in better understandable form
+If you want to see the running process of your linux system which command you run ?
+Ans:  top                           // to see the processes
+      ps ux                         // to see the current user processes
+      ps processId                  // to see the specific process
+If you want kill any process , What is the command?
+Ans: kill processId                 // to kill a process
+What does rwx & UGOmeaning in file permission and ownership?
+Ans:  rwx is the permission on a file, rwx stand for Read, Write, Execute
+      UGO is the ownership on a file, UGO stand for Users, Group, Others 
+What permission define in the 664 ?
+Ans: 664 means this process has Read&Write Permission for users and Groups AND only Read Permission for Others.
+Write the name of file ownership attribute ?
+Ans:  File ownership attributes are Read (r), Write (w) and Execute (x)
+      File owners can be User (U), Group (G) and Others (O)
